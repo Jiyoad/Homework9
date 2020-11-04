@@ -1,0 +1,31 @@
+
+html, body{
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{background-image: linear-gradient(rgb(114, 44, 26), rgb(214, 194, 158));}
+.jumbotron{
+    background-image: linear-gradient(to right,rgb(114, 44, 26), rgb(214, 194, 158), rgb(114, 44, 26));
+}
+.card{
+    margin: 5%;
+    box-shadow: 2px 2px 4px;
+}
+.card-header{
+    border-radius: 15px;
+    background-image: linear-gradient(wheat,rgb(114, 44, 26));
+
+}
+.card-body{
+    background-image: radial-gradient(rgb(114, 44, 26), wheat);
+    border-radius: 0px 0px 5px 5px;
+}
+.employee-card{
+    border-width: 0px;
+    width: 25%;
+}
+.list-group-item{
+    background-image: radial-gradient(rgba(245, 222, 179, 0.205), rgba(252, 218, 156, 0.911));
+    margin: 2px;
+
+}
